@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 
+import numbers, random, torch
 import numpy as np
-import numbers
-import random
 from torchvision.transforms import functional as F
-import torch
 
 
 class RandomCrop(object):

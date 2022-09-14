@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 
-import torch
-import torch.nn as nn
-import torch.nn.init as init
+from torch import nn
+from torch.nn import init
 
 
 def weight_init(m):

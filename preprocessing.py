@@ -1,12 +1,8 @@
 #!/usr/bin/env python
 
+import os, argparse, glob, re, json
 import pandas as pd
-import os
 import numpy as np
-import argparse
-import glob
-import re
-import json
 
 
 def parse_args():

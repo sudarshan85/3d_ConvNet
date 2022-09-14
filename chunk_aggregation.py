@@ -1,17 +1,11 @@
 #!/usr/bin/env python
 
-import argparse
-import os
+import argparse, os, cv2, torch, videotransforms, time
 import numpy as np
-import cv2
-import collections
-import torch
 from torchvision import transforms
 from torch.utils.data import DataLoader, SequentialSampler
-import videotransforms
 from dataset import IVBSSDataset
 from model import TemporalActionLocalization
-import time
 
 
 def get_parse():

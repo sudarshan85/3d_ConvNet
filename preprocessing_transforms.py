@@ -13,12 +13,9 @@ clip: Input to __call__ of each transform is a list of PIL images
 All functions have an example in the TestPreproc class at the bottom of this file
 """
 
-import torch
-import torchvision
+import torch, torchvision, cv2
 from torchvision.transforms import functional as F
 from PIL import Image
-from PIL import ImageChops
-import cv2
 from scipy import ndimage
 import numpy as np
 from abc import ABCMeta

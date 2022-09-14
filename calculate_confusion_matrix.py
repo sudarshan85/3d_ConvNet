@@ -1,13 +1,9 @@
 #!/usr/bin/env python
 
-import argparse
-import os
-import pickle
+import argparse, pickle, torch, videotransforms
 import numpy as np
-import torch
 from torchvision import transforms
 from torch.utils.data import DataLoader, SequentialSampler
-import videotransforms
 from dataset import IVBSSDataset, collate_fn
 from model import TemporalActionLocalization
 

@@ -1,11 +1,8 @@
 #!/usr/bin/env python
 
-import os
-import json
+import os, json, torch, cv2
 import numpy as np
-import torch
 from torch.utils.data import Dataset
-import cv2
 
 
 def load_rgb_frames(video_dir, video_id, frame_names):

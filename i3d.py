@@ -1,17 +1,10 @@
 #!/usr/bin/env python
 
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from torch.autograd import Variable
-import datasets.preprocessing_transforms as pt 
-
 import numpy as np
-
-import os
-import sys
-from collections import OrderedDict
-
+import torch
+from torch import nn
+from torch.nn import functional as F
+import datasets.preprocessing_transforms as pt 
 
 """
 Code from the implementation of i3d by AJ Piergiovanni: https://github.com/piergiaj/pytorch-i3d
