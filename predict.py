@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import argparse
 import os
 import torch
@@ -6,7 +8,6 @@ from torch.utils.data import DataLoader, SequentialSampler
 import videotransforms
 from dataset import IVBSSDataset, collate_fn
 from model import TemporalActionLocalization
-
 
 def get_parse():
   parser = argparse.ArgumentParser()
@@ -75,4 +76,3 @@ def test():
 
 if __name__ == '__main__':
   test()
-

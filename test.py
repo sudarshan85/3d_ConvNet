@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import argparse
 import os
 import torch
@@ -117,4 +119,3 @@ def test():
 
 if __name__ == '__main__':
   test()
-

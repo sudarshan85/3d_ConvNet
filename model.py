@@ -1,9 +1,10 @@
+#!/usr/bin/env python
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from pytorch_i3d import InceptionI3d, Unit3D
 from weight_init import weight_init
-
 
 class TemporalActionLocalization(nn.Module):
   def __init__(self, num_classes, I3D_trained_model):

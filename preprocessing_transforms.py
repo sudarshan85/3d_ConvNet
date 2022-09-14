@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 Functions used to process and augment video data prior to passing into a model to train. 
 Additionally also processing all bounding boxes in a video according to the transformations performed on the video.
@@ -1216,5 +1218,3 @@ class TestPreproc(object):
 if __name__=='__main__':
   test = TestPreproc()
   test.run_tests()
-
-

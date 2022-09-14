@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import argparse
 import os
 import torch
@@ -189,4 +191,3 @@ def eval(val_dataset, batch_size, model):
 
 if __name__ == '__main__':
   train()
-
